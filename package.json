@@ -1,0 +1,28 @@
+{
+  "name": "cf_ai_knowledge_assistant",
+  "version": "1.0.0",
+  "description": "AI-powered personal knowledge assistant built on Cloudflare Agents SDK",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "cloudflare",
+    "ai",
+    "agents",
+    "llm",
+    "chat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "agents": "^1.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "wrangler": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
